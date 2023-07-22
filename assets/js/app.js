@@ -131,6 +131,7 @@ function updateCPSection(handle_name) {
     });
 }
 
+/*-------------------------------------------------------CF Handle Button Click--------------------------------------------------------- */
 cpInputField.addEventListener("keypress", (e) => {
     if (e.key === "Enter") {
         updateCPSection(cpInputField.value);
