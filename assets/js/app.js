@@ -170,7 +170,7 @@ if (font) {
 }
 updateStyle();
 
-// Color Switcher
+// --------------------------------------------------------- Color Switcher------------------------------------------------------------
 document.querySelector("#card-1").addEventListener("click", () => {
     var body = document.querySelector("body");
     if (body.classList.contains("aqua") === false) {
